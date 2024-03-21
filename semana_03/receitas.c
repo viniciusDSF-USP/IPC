@@ -34,7 +34,7 @@ int main() {
 		break;
 	default:
 		//printf("Nao tenho essa receita, vai ficar com fome >:( ou peca comida\n");
-		printf("Nao tenho essa receita, mas voce deve gostar desta:\nhttps://viniciusdsf-usp.github.io/IPC/semana_03/Receita%20de%20ur%C3%A2nio%20enriquecido%20-%20TudoGostoso.html >:D\n");
+		printf("Nao tenho essa receita, mas voce deve gostar desta:\nhttps://viniciusdsf-usp.github.io/IPC/semana_03/default.html >:D\n");
 	}
 
 	// Mostra uma mensagem final.

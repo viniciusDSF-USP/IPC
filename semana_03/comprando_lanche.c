@@ -11,7 +11,7 @@ int main(){
 	scanf("%f %f %f %f", &prec_tort, &prec_tej, &prec_man, &pesos);
 
 	if (prec_tort+prec_tej+prec_man <= pesos){
-		printf("Dikson pode comprar tortilla, tejuine e manzapane");
+		printf("Dikson pode comprar tortilla, tejuine e mazapane");
 	} else if (prec_tort+prec_tej <= pesos){
 		printf("Dikson pode comprar tortilla e tejuine");
 	} else if (prec_tort <= pesos) {

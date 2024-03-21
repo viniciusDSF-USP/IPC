@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage[lf]{Baskervaldx}
+\usepackage{xcolor}
+
+\definecolor{gray}{HTML}{F2F2F2}
+\definecolor{darkgray}{RGB}{77,77,77}
+\definecolor{blue}{RGB}{53,53,104}
+\definecolor{brown}{RGB}{139,88,88}
+
+\geometry{
+    left=3cm,
+    top=3cm,
+    bottom=2cm,
+    right=2cm
+}
+
+\title{ \textbf{Universidade de São Paulo} \\ 
+\Large (Título) \\}
+\author{\Large BMACC -- Introdução à Programação de Computadores \\ 
+Vinícius de Sá Ferreira - 15491650}
+\date{(Data), Araraquara}
+
+\begin{document}
+    \lstset{
+        language=C++,
+        basicstyle=\linespread{1.25}\normalsize\ttfamily,
+        showstringspaces=false,
+        keywordstyle=\color{blue}\ttfamily,
+        stringstyle=\color{brown}\ttfamily,
+        commentstyle=\color{darkgray}\ttfamily,
+        morecomment=[l][\color{blue}]{\#},
+        backgroundcolor=\color{gray},
+        breaklines=true,
+        captionpos=b,
+        caption=<file.cpp>
+    }
+
+    %\lstinputlisting{<path_of_file.cpp>}    
+\end{document}
